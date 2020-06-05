@@ -1,0 +1,355 @@
+header{
+    background-image: url(https://hollowknight.com/wp-content/uploads/2018/09/banner_type_02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  flex-end;
+   
+}
+
+.header__image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.header__content{
+    color: #fff;
+    margin-bottom: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.conta{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+}
+main{
+    color: #fff;
+    background-color: black;
+    display: grid;
+    gap: 60px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 0.9rem;
+    line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 100px;
+}
+main img{
+    width: 100%;
+}
+.main--content__title{
+    font-size: 1.9rem;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: normal;
+}
+.main--image__wrapper{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.30%;
+    margin: 30px auto;
+}
+.main--image__wrapper img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.main--content__article{
+    margin: 50px auto;
+}
+.main--content__article h3{
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+}
+.video{
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.main--image__logos{
+    padding-bottom: 46.08%;
+}
+
+
+
+.main--article{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    grid-template-rows: auto;
+
+}
+
+.main--article__title{
+    grid-row: 1/2;
+}
+
+.main--article h2{
+    grid-column: 1/-1;
+}
+.main--image__articles{
+    padding-bottom: 92.55%;
+}
+
+.main--article__content{
+    grid-column: 1/-1;
+}
+.main--image__banner{
+    padding-bottom: 41.80%;
+    grid-column: 1/-1;
+}
+.main--article__container{
+    width: 70vw;
+    grid-column: 1/-1;
+    margin: auto;
+}
+.main--image__banner2{
+    padding-bottom: 17.68%;
+}
+.main--visit{
+    text-align: center;
+
+}
+.main--image__visit{
+    padding-bottom: 42.65%;
+}
+button{
+    cursor: pointer;
+}
+.visit__button{
+    background-color: #fff;
+    text-decoration: none;
+    border-style: none;
+    display: block;
+    margin: auto;
+    color: black;
+    padding: 15px 35px;
+    border-radius:100px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.main--kit__article{
+    text-align: center;
+    margin: 50px auto;
+}
+.main--image__kit{
+    padding-bottom: 40.53%;
+}
+.main--image__kit2{
+    padding-bottom: 47.38%;
+}
+.main--image__kit3{
+    padding-bottom: 48.12%;
+}
+.main--kit__container{
+    grid-column: 1/-1;
+    width: 65vw;
+    height: auto;
+    margin: auto;
+}
+
+
+.main--banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://hollowknight.com/wp-content/uploads/2018/09/Xbox_Art_Assets_0002_Super-Hero-Art_dark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 60px ;
+    line-height: 25px;
+}
+.main--banner__container{
+    width: 100vw;
+}
+.main--image__banner3{
+    padding-bottom: 27.61%;
+}
+.main--banner button{
+    margin: 50px 0;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 35px;
+    border-style: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color: #4a69bd;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.about{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10% 20px 10% 20px;
+    height: 100%;
+    font-size: 0.9rem;
+    line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+.about a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1rem;
+}
+footer{
+    background-color: #d82742;
+    width: 100%;
+    height: 1000px;
+}
+@media only screen and (min-width:768px){
+    .main--content{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto  ;
+    }
+    .main--content__title{
+        grid-column: 1/-1 ;
+    }
+    .video{
+        grid-column: 1/-1;
+    }
+    .main--content__article{
+        margin: auto;
+    }
+    .main--image__wrapper{
+        margin:auto;
+    }
+    .main--logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1f 1fr;
+    }
+    .main--logos__title{
+        grid-column: 1/-1;
+    }
+    .main--article{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px 50px;
+        grid-template-rows: auto ;
+        padding: 20px;
+    }
+    .main--article >* {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main--article__title{
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 50px;
+    }
+    
+    .main--article__content{
+        grid-column: span 1;
+    }
+    .main--visit{
+        display: grid;
+        grid-template-columns:  repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        gap: 20px;
+    }
+    .main--visit__title{
+        grid-column: 1/-1;
+    }
+    .main--image__visit{
+        grid-row: 2/3;
+    }
+   .visit__button{
+       grid-row: 4/-1;
+   }
+   .main--kit{
+       display: grid;
+       gap: 10px;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: auto;
+   }
+   .main--kit__article{
+       grid-column: 1/-1;
+   }
+   .main--image__kit2{
+       margin: 0 auto;
+   }
+   .main--kit__container{
+       width: 50vw;
+   }
+   .main--banner__container{
+    width: 60vw;
+    }
+}
+@media only screen and (min-width:1280px){
+    
+    .main--article{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5,auto);
+    }
+    .main--article__content{
+        grid-column: span 2;
+        padding-top: 100px;
+    }
+    .main--article__container{
+        width: 50vw;
+    }
+    .main--kit__container{
+        width: 20vw;
+    }
+    .main--banner__container{
+        width: 45vw;
+    }
+}
+@media only screen and (min-width:1600px){
+    main{
+        width: 70vw;
+        margin: auto;
+    }
+    .main--article__container{
+        width: 30vw;
+    }
+    .main--banner__container{
+        width: 25vw;
+    }
+}
